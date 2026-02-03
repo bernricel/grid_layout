@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #c7f0c7;
+  border: 10px solid #238000;
+  box-sizing: border-box;
+  gap: 35px;
+  padding: 30px;
+}
+
+.lightBlueContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  background-color: #add8e6;
+  border: 8px solid #2000ff;
+  gap: 15px;
+}
+
+.peachBox {
+  background-color: #fcdab9;
+  border: 8px solid #f78072;
+  box-sizing: border-box;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.innerBox {
+  display: grid;
+  place-items: center;
+  padding: 35px 0;
+  background-color: #fac0cb;
+  border: 8px solid #f40005;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.mainBox {
+  height: 500px;
+  background-color: #fabbbb;
+  border: 8px solid #a52b2a;
+  box-sizing: border-box;
+}
+
+.asideContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.asideBox {
+  background-color: #fabbbb;
+  border: 8px solid #a52b2a;
+  box-sizing: border-box;
+}
+
+.blueContainer {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+  padding: 20px;
+  background-color: #add8e6;
+  border: 8px solid #2000ff;
+  gap: 10px;
+}
+
+.purpleBox {
+  background-color: #e2deff;
+  border: 8px solid #6a5acd;
+  box-sizing: border-box;
+}
+
+.smallPeachBox {
+  padding: 40px;
+  background-color: #fcdab9;
+  border: 8px solid #f78072;
+  box-sizing: border-box;
+}
